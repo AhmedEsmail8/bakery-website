@@ -1,0 +1,74 @@
+.sec1{
+    height: 100vh;
+    line-height: 1.86em;
+    display: flex;
+    align-items: center;
+}
+
+.sec2{
+    height: 90vh;
+    text-align: center;
+}
+
+.sec1 h1{
+    margin: 5% 0;
+}
+
+.sec1 .who-we-are{
+    display: inline-block;
+    width: 40%;
+    height: 69%;
+    position: relative;
+    vertical-align: middle;
+    font-size: large;
+}
+
+.sec1 table tr td img{
+    width: 40px;
+    border-radius: 30px;
+    border: 1px solid #8e775448;
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.sec1 table tr{
+    height: 60px;
+}
+
+.sec1 img{
+    width: 100%;
+}
+
+.sec1 .image{
+    display: inline-block;
+    width: 37%;
+    margin-left: 10%;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+.item{
+    display: inline-block;
+    width: 25%;
+    margin: 4% 1%;
+}
+
+.item img{
+    width: 100%;
+}
+
+*{
+    font-weight: 400;
+}
+
+.item p,
+td,
+.grey{
+    color: #686868;;
+}
+
+body{
+    margin: 0;
+    font-family: "Alegreya Sans";
+}
